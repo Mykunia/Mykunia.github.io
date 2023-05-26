@@ -247,7 +247,8 @@ li.dropdown {
 	transition: .5s ease;
 	backface-visibility: hidden;
 }
-  
+
+
 .middle {
 	transition: .5s ease;
 	opacity: 0;
@@ -291,4 +292,3 @@ li.dropdown {
 	margin-bottom: 0px;
 	
 }
-
