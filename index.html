@@ -24,6 +24,14 @@
 		  "description": "Sklep z rzeczami dla kotów."
 		}
 		</script>
+		<style> 
+			df-messenger { 
+			--df-messenger-bot-message: #4A7D16; 
+			--df-messenger-button-titlebar-color: #4A7D16; 
+			--df-messenger-chat-background-color: #fafafa; 
+			--df-messenger-font-color: #fff; 
+			--df-messenger-user-message: #1187ee; } 
+			</style>
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CR498G9ERB"></script>
@@ -143,6 +151,14 @@
 	const zdjecie = document.querySelector('.zdjecie');
  
 </script>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Pomoc"
+  agent-id="956d23bc-a578-493a-801f-90042840c365"
+  language-code="pl"
+  expand="true"
+></df-messenger>
 
 
 </body>
